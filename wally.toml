@@ -1,0 +1,20 @@
+[package]
+name = "jasonconba/token-bucket-rblx"
+version = "0.1.0"
+description = "A Token Bucket implementation for Luau, derived from Roblox standard API example."
+authors = ["jasonconba"]
+repository = "https://github.com/jasonconba/TokenBucket-LuaU"
+license = "MIT"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+exclude = ["*"]
+include = [
+    "wally.toml",
+    "wally.lock",
+    "README.md",
+    "LICENSE.md",
+    "default.project.json",
+    "src",
+    "src/**",
+]
